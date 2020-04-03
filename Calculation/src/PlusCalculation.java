@@ -9,6 +9,12 @@ public class PlusCalculation {
 		
 		System.out.println(a + b);
 		
+		System.out.println(b - a);
+		
+		System.out.println(a * b);
+		
+		System.out.println(b / a);
+		
 	}
 
 }
