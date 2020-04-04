@@ -14,6 +14,8 @@ public class PlusCycle {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
 		int cycle = 0;
 		
 		int ten = n/10;
@@ -21,7 +23,7 @@ public class PlusCycle {
 		int res = ten + one;
 		int newNum = one * 10 + res % 10;
 		cycle++;
-		System.out.println(ten + " + " + one + " = " + res + " # new number : " + newNum);
+		bw.write(ten + " + " + one + " = " + res + " # new number : " + newNum + "\n");
 		
 		if(n >= 10) {
 			
@@ -32,7 +34,7 @@ public class PlusCycle {
 				one = newNum % 10;
 				res = ten + one;
 				newNum = one * 10 + res % 10;
-				System.out.println(ten + " + " + one + " = " + res + " # new number : " + newNum);
+				bw.write(ten + " + " + one + " = " + res + " # new number : " + newNum + "\n");
 				
 			}
 			
@@ -45,13 +47,15 @@ public class PlusCycle {
 				one = newNum % 10;
 				res = ten + one;
 				newNum = one * 10 + res % 10;
-				System.out.println(ten + " + " + one + " = " + res + " # new number : " + newNum);
+				bw.write(ten + " + " + one + " = " + res + " # new number : " + newNum + "\n");
 			
 			} while(n != newNum);
 			
 		}
 		
-		System.out.println("총 사이클 수 : " + cycle);
+		bw.write("총 사이클 수 : " + cycle);
+		bw.flush();
+		bw.close();
 		
 	}
 
