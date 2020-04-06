@@ -25,8 +25,6 @@ public class NumberFinding {
 		
 		for(int i = 0; i < resultStr.length(); i++) {
 			
-			System.out.println(resultStr.charAt(i));
-			
 			switch(resultStr.charAt(i)) {
 			
 				case '0' :
