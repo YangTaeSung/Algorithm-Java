@@ -7,10 +7,13 @@ public class FunctionSum {
 
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		bw.write("output test");
+			
+		bw.write("output test \n");
 		bw.flush();
 		bw.close();
+		
+		String hello = br.readLine();
+		System.out.println(hello);
 	}
 
 }
