@@ -13,7 +13,8 @@ public class FunctionSum {
 		bw.close();
 		
 		String hello = br.readLine();
-		System.out.println(hello);
+		System.out.println("hello");
+		System.out.println("world");
 	}
 
 }
