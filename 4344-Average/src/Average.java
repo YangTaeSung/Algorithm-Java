@@ -43,7 +43,7 @@ public class Average {
 			
 		}
 		
-		// winner나 testcas 중 하나라도 double이어야 해
+		// winner나 testcase 중 하나라도 double이어야 해
 		// 아니면 0이 나와버려
 		result = (double)winner / testcase * 100;
 		
