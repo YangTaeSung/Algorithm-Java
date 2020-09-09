@@ -1,3 +1,5 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Iteration {
@@ -5,7 +7,12 @@ public class Iteration {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); 
+		// 되도록이면 스캐너 쓰지 말자!
+		/* 
+		 * BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());
+		*/
 		
 		System.out.println("Test case input");
 		int tc = scanner.nextInt();
