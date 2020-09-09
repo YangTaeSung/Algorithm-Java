@@ -3,7 +3,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /*
- * BFS 활용 - 최단경로 찾을 때 사용 
+ * BFS 활용 - 최단경로 찾을 때 사용
+ * - 2차원 배열 
+ * - 큐 
  */
 
 public class Solution {

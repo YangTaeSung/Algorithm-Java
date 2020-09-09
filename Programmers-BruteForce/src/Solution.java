@@ -14,6 +14,7 @@ public class Solution {
         	if(c[i%c.length]==answers[i]) cNum++;
         }
         
+        // Math.max -> 세 개 비교할 때 조심
         int max = Math.max(Math.max(aNum, bNum),cNum);
         
         ArrayList<Integer> list = new ArrayList<Integer>();
