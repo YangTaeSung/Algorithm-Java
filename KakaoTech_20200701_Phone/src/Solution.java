@@ -1,6 +1,6 @@
 /*
  * Kakao tech 20200701 Question1
- * - new int 조심!(배열선언) 
+ * - new int 조심!(배열선언)
  */
 
 class Solution {
