@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList; 
 
 public class Remainder42 {
 
@@ -40,6 +40,5 @@ public class Remainder42 {
 		return result;
 		
 	}
-
 
 }
