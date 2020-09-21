@@ -25,8 +25,7 @@ public class StarOutput {
 		
 		bw.flush();
 		bw.close();
-		
-		
+		g
 	}
 
 }
