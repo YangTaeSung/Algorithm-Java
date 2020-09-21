@@ -27,7 +27,6 @@ public class StarOutput {
 		bw.close();
 		
 		
-		
 	}
 
 }
