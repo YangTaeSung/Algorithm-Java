@@ -1,7 +1,8 @@
 /*
  * 
+ * Programmers - 스택_주식가격 
  * 문제가 거지같아 그냥 그런갑다 해. 
- * 
+ *
  */
 
 class Solution {
