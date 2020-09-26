@@ -3,10 +3,10 @@
  * 
  * PriorityQueue
  * - MinHeap 구조
- * Queue
+ * Queue 
  * - 사이즈가 가변적이다. 
  * - FIFO
- */
+ */ 
 import java.util.PriorityQueue;
 
 public class Solution {
