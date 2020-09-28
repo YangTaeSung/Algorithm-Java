@@ -17,8 +17,10 @@ class Solution {
             }
             answer[i] = second;
         }
+        
         answer[prices.length-1] = 0;
         answer[prices.length-2] = 1;
+        
         return answer;
     }
 }
