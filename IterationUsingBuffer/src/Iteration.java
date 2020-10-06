@@ -39,7 +39,6 @@ public class Iteration {
         // 다 사용했으면 남아있는 데이터를 모두 출력시키고
         bufferedWriter.close();
         // 스트림을 닫아주면 된다.
-        
 		
 	}
 
