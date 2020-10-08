@@ -9,6 +9,9 @@ import java.util.*;
 class Solution {
     
     private static int answer = 0;
+    // private static List<Integer> result = new ArrayList<>();
+    // List로 하면 중복된 원소가 추가돼. HashSet은 중복된 원소 추가 허용 안됨.
+    private static HashSet<Integer> result = new HashSet<>();
     
     public int solution(String numbers) {
         List<Character> arr = new ArrayList<>();
@@ -21,6 +24,7 @@ class Solution {
             permutation(arr, 0, arr.size() /*n*/, i + 1 /*r*/);
         }
         
+        answer = result.size();
         return answer;
     }
     
@@ -46,12 +50,14 @@ class Solution {
         int n = Integer.parseInt(str);
         
         if(n == 1) return;
-        for(int i = 2; i<Math.sqrt(n); i++) {
+        if(n % 2 == 0) return;
+        for(int i = 3; i<Math.sqrt(n); i+=2) {
             if(n % i == 0) {
                 return;
             }
         }
-        answer++;
+        
+        result.add(n);
         return;
     }
     
