@@ -1,5 +1,10 @@
 import java.util.ArrayList;
-
+/*
+ * 
+ * Programmers - 완전탐색
+ * 모의고사 
+ * 
+ */
 public class Solution {
 	public int[] solution(int[] answers) {
         int[] answer = {};
