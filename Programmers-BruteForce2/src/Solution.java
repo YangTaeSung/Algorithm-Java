@@ -2,6 +2,8 @@
  * 
  * Programmers - 완전탐색
  * 소수찾기
+ * 순열, HashSet, 재귀 사용 
+ * 정확도 50 나옴 
  * 
  */
 import java.util.*;
