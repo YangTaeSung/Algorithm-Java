@@ -14,7 +14,6 @@ class Solution {
     
     public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];
-        List<Integer> arr = new ArrayList<>(); 
         
         for(int i = 1; i <= Math.sqrt(yellow); i++) {
             for(int j = 1; j <= yellow; j++) {
