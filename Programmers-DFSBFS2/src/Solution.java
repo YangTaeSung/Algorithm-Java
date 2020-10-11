@@ -11,6 +11,7 @@ class Solution {
         int answer = 0;
         boolean[] check = new boolean[n];
         
+        /* 없어도 될 듯 알아서 false로 초기화 됨 */
         for(int i = 0; i < n; i++) {
             check[i] = false;
         }
