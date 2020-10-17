@@ -30,6 +30,7 @@ class Solution {
         return answer;
     }
     
+    // 순열
     public void permutation(List<Character> arr, int depth, int n, int r) {
         if(depth == r) {
             String str = "";
@@ -47,8 +48,9 @@ class Solution {
         }
     }
     
+    // 소수 찾기 
     public void isPrime(String str) {
-        if(str.charAt(0) == 0) return;
+        if(str.charAt(0) == 0) return; // 첫 글자는 0이 오면 안됨 
         int n = Integer.parseInt(str);
         
         if(n == 1) return;
