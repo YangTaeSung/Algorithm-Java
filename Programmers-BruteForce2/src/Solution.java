@@ -48,6 +48,12 @@ class Solution {
         }
     }
     
+    public void swap(List<Character> arr, int depth, int i) {
+        Character temp = arr.get(depth);
+        arr.set(depth, arr.get(i));
+        arr.set(i,temp);
+    }
+    
     // 소수 찾기 
     public void isPrime(String str) {
         if(str.charAt(0) == 0) return; // 첫 글자는 0이 오면 안됨 
@@ -63,11 +69,5 @@ class Solution {
         
         result.add(n);
         return;
-    }
-    
-    public void swap(List<Character> arr, int depth, int i) {
-        Character temp = arr.get(depth);
-        arr.set(depth, arr.get(i));
-        arr.set(i,temp);
     }
 }
