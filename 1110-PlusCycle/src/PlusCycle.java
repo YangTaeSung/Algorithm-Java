@@ -1,3 +1,15 @@
+/*
+ * 
+ * 백준 1110
+ * BufferedReader br = new BufferedReader(InputStreamReader(System.in));
+ * BufferedWriter bw = new BufferedWriter(OutputStreamWriter(System.out));
+ * int n = Integer.parseInt(br.readLine());
+ * bw.write();
+ * bw.flush();
+ * bw.close();
+ * 
+ */
+
 import java.io.IOException;
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
