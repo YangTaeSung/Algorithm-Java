@@ -4,6 +4,7 @@
  * Scanner sc = new Scanner(System.in);
  * BufferedReader br = new BufferedReader(InputStreamReader(System.in));
  * int n = Integer.parseInt(br.readLine());
+ * Buffered 사용 시 해당 함수에 throws IOException 추가하기(import java.io.IOException;)
  * 
  */
 
