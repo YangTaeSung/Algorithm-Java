@@ -1,3 +1,12 @@
+/*
+ * 
+ * 백준 10818
+ * ArrayList<Integer> arrayList = new ArrayList<>();
+ * Random random = new Random();
+ * random.nextInt();
+ * 
+ */
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -19,7 +28,7 @@ public class MaxMin {
 		}
 		
 		
-		int max = arrayList.get(0);
+		int max = arrayList.get(0); // Integer 값을 int 변수에 담음. 
 		int min = arrayList.get(1);
 		
 		for(int i = 0; i < 5; i++) {
