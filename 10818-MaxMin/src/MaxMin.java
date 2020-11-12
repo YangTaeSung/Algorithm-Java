@@ -63,6 +63,7 @@ public class MaxMin {
 - import java.io.BufferedWriter;
 - import java.io.InputStreamReader;
 - import java.io.OutputStreamWriter;
+- throws IOException
 - BufferedReader br = new BufferedReader(new InputStreamReader(System.in());
 - BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out());
 - br.readLine();
