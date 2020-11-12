@@ -58,6 +58,24 @@ public class MaxMin {
 
 // 백준 제출용 작업
 /*
+
+- import java.io.BufferedReader;
+- import java.io.BufferedWriter;
+- import java.io.InputStreamReader;
+- import java.io.OutputStreamWriter;
+- BufferedReader br = new BufferedReader(new InputStreamReader(System.in());
+- BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out());
+- br.readLine();
+
+- String[] arr = new String[n];
+- arr = br.readLine().split(" ");
+- arrInteger[i] = Integer.parseInt(arrString[i]);
+
+- bw.write(~~):
+- bw.flush();
+- bw.close();
+
+
 import java.io.*;
 
 public class Main {
